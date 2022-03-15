@@ -14,7 +14,6 @@ public class Dubstep {
                 }
             }
         }
-        System.out.println(stringBuilder);
         return stringBuilder.toString();
     }
 }

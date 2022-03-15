@@ -7,8 +7,6 @@ import java.util.Map;
 public class SquareDigit {
 
     public int squareDigits(int n) {
-        // TODO Implement me
-
         String stringOfNumbers = String.valueOf(n);
 
         char[] charsArray = stringOfNumbers.toCharArray();

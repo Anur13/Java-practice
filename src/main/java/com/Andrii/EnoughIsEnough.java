@@ -8,11 +8,8 @@ import java.util.List;
 public class EnoughIsEnough {
 
     public static int[] deleteNth(int[] elements, int maxOccurrences) {
-        //Code here ;)
-
         HashMap<Integer, Integer> map = new HashMap<>();
         List<Integer> list = new ArrayList<>();
-
 
         for (int element : elements) {
             map.put(element, 1);
@@ -27,7 +24,6 @@ public class EnoughIsEnough {
 
         Object[] array = list.toArray();
         int[] integerArray = new int[array.length];
-
 
         for (int i = 0; i < array.length; i++) {
             integerArray[i] = (int) array[i];
